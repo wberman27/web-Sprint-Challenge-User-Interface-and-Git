@@ -100,7 +100,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/* box colors */
 .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
     width: 12.5%;
     height: 100px;
@@ -141,7 +141,7 @@ p {
 .middle-content .boxes .box10{
     background:dodgerblue;
 }
-
+/*box colors ^^^^^*/
 
 .bottom-content {
     display: flex;
@@ -177,6 +177,11 @@ footer nav a {
 }
 
 
+
+
+/*begin me... (except box colors that are above)s*/
+
+/*header navigation CSS*/
 .navBar{
     display:flex;
     flex-flow:row wrap;
@@ -203,6 +208,7 @@ nav .jumbo{
     display:flex;
     padding-bottom:3%;
 }
+/*info below header on about page*/
 .aboutBody{
     display:flex;
     flex-flow:row wrap;
@@ -210,6 +216,7 @@ nav .jumbo{
     width:100%;
 
 }
+/* each flex box section in about page */
 .bodyBox{
     display:flex;
     flex-flow:row wrap;
@@ -230,6 +237,7 @@ nav .jumbo{
 .bodyBox, p{
     padding-bottom:5%;
 }
+/*learn more links on about page*/
 .learnMore{
     padding:5%;
     width:40%;
@@ -240,6 +248,7 @@ nav .jumbo{
     text-decoration:none;
     color:black;
 }
+/*dashed border below about info near header*/
 header h3{
     border-bottom:1px dashed black;
     padding-bottom:5%;
