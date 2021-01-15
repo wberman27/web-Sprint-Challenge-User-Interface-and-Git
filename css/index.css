@@ -172,3 +172,47 @@ nav .jumbo{
     display:flex;
     padding-bottom:3%;
 }
+.aboutBody{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    width:100%;
+
+}
+.bodyBox{
+    display:flex;
+    flex-flow:row wrap;
+    padding:5%;
+    border-bottom:1px dashed black;
+    align-items:column wrap;
+    width:45%;
+    height:100%;
+}
+.aboutBody img{
+    width:100%;
+}
+.bodyBox, h3, p{
+    display:flex;
+    flex-flow:column wrap;
+    padding:5% 3% 0% 5%;
+}
+.bodyBox, p{
+    padding-bottom:5%;
+}
+.learnMore{
+    padding:5%;
+    width:40%;
+    border:2px solid black;
+    border-radius:10px;
+}
+.learnMore a{
+    text-decoration:none;
+    color:black;
+}
+header h3{
+    border-bottom:1px dashed black;
+    padding-bottom:5%;
+}
+.end h3{
+    padding-bottom:5%;
+}
