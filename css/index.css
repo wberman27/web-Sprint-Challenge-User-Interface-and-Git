@@ -145,6 +145,30 @@ footer nav a {
     text-decoration: none;
 }
 
-.lambdaHead{
-    background:url("img/lambda-black.png")
+
+.navBar{
+    display:flex;
+    flex-flow:row wrap;
+    width:100%;
+    justify-content:space-between;
+    padding-bottom:5%;
+    padding-top:2%;
+}
+.navBar img{
+    display:flex;
+}
+.navText{
+    display:flex;
+    width:10%;
+    color:black;
+    align-items:center;
+    justify-content:center;
+}
+.navText a{
+    text-decoration:none;
+    color:black;
+}
+nav .jumbo{
+    display:flex;
+    padding-bottom:3%;
 }
